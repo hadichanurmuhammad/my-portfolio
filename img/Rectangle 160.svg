@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 387 420" width="387" height="420">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-215 -275L1385 -275L1385 4647L-215 4647Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #00aaff } 
+	</style>
+	<g id="Portfolio landing page 1" clip-path="url(#cp1)">
+		<g id="Group 8482">
+			<path id="Rectangle 160" class="shp0" d="M0 0L58 0C239.94 0 387 147.06 387 329L387 420L387 420L13 420C5.81 420 0 414.19 0 407L0 0L0 0Z" />
+		</g>
+	</g>
+</svg>

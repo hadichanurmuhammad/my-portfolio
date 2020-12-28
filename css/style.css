@@ -1,0 +1,33 @@
+.aside > img{
+	background-image: url("../img/Rectangle 160.svg");
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position: 0 100px;
+	border-bottom-left-radius: 10px;
+	width: 100% !important;
+	margin: 0 auto;
+}
+
+.aside{
+	width: 100%;
+}
+
+.main{
+	height: 90vh;
+	background-image: url("../img/Group 35647.svg");
+	background-repeat: no-repeat;
+	background-position: 1190px 300px;
+}
+
+@media(max-width: 574px){
+	.aside > img{
+		background-position: 0 0;
+		background-size: cover;
+	}
+}
+
+@media(max-width: 368px){
+	.aside > img{
+		background-size: cover;
+	}
+}

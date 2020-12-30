@@ -19,6 +19,64 @@
 	background-position: 1190px 300px;
 }
 
+.next-card{
+	filter: drop-shadow(0 0 17.5px rgba(172,172,172,0.16));
+	background: #fff;
+	margin: 15px;
+	border: none;
+}
+
+.album > .container > img{
+	width: 40%;
+	background-image: url("../img/Rectangle 160.svg");
+	background-repeat: no-repeat;
+	background-position: 200px 50px;
+	background-size: 250px;
+	border-bottom-left-radius: 10px;
+}
+
+.border{
+	border: 10px solid #f5317f !important;
+	border-right-color: transparent !important;
+	filter: drop-shadow(0 0 11.5px rgba(170,170,170,0.26));
+}
+
+.border-1{
+	border: 10px solid #b122e5 !important;
+	border-right-color: transparent !important;
+	filter: drop-shadow(0 0 11.5px rgba(170,170,170,0.26));
+}
+
+.border-2{
+	border: 10px solid blue !important;
+	border-right-color: transparent !important;
+	filter: drop-shadow(0 0 11.5px rgba(170,170,170,0.26));
+}
+
+.border-3{
+	border: 10px solid #2cbfc7 !important;
+	border-right-color: transparent !important;
+	filter: drop-shadow(0 0 11.5px rgba(170,170,170,0.26));
+}
+
+.border-4{
+	border: 10px solid gold !important;
+	border-right-color: transparent !important;
+	filter: drop-shadow(0 0 11.5px rgba(170,170,170,0.26));
+}
+
+.photoshops{
+	transform: translateX(20px);
+}
+
+.wrapper > p{
+	padding-top: 15px;
+}
+
+.album > .wrapper{
+	justify-content: space-around !important;
+}
+
 @media(max-width: 574px){
 	.aside > img{
 		background-position: 0 0;
@@ -29,5 +87,23 @@
 @media(max-width: 368px){
 	.aside > img{
 		background-size: cover;
+	}
+}
+
+@media(max-width: 990px){
+	.service{
+		padding-top: 300px !important;
+	}
+}
+
+@media(max-width: 766px){
+	.service{
+		padding-top: 150px !important;
+	}
+}
+
+@media(max-width: 532px){
+	.service{
+		padding-top: 50px !important;
 	}
 }

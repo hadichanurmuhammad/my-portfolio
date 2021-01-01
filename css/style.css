@@ -107,6 +107,8 @@ body{
 @media(max-width: 409px){
 	.nav-tabs{
 		flex-direction: column;
+		align-items: center;
+		margin: 0 auto;
 	}
 
 	.footer > .container > .wrapper {
